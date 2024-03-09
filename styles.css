@@ -149,11 +149,22 @@ section{
 }
 #menu a{
     color: white;
-    
+}
+#menu a:hover{
+    background-color: black;
 }
 #text{
     font-size: 30px;
     color: white;
+    background-image: url(img/Screenshot\ 2024.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    background-position-x: 92%,center;
+    background-position-y: 5%,center;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 #searcher input{
     width: 180px;
